@@ -1,0 +1,42 @@
+body {
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.weight {
+    display: flex;
+    width: 30rem;
+    height: 30rem;
+    padding-top: 1em;
+    background-color: rgb(190, 179, 179);
+}
+
+.box {
+    width: 10em;
+    height: 10em;
+    background-color: tomato;
+}
+
+.on {
+    background-color: yellow;
+    position: relative;
+    margin-top: 11em;
+}
+
+.hidden {
+    position: relative;
+    visibility: hidden;
+}
+
+.tw {
+    background-color: green;
+    position: absolute;
+    margin-top: 21em;
+    margin-left: 5em;
+}
+
+.th {
+    background-color: red;
+    position: relative;
+}
