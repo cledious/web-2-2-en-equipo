@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(156, 71, 71);
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    padding: 4rem;
+}
+span {
+    font-size: 0.55em;
+    color: rgb(185, 183, 38);
+}
+
+h2 {
+    color: rgb(189, 188, 138);
+}
+
+a {
+    color: rgb(189, 188, 138);
+}
+
+p {
+    color:antiquewhite;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.in {
+    padding: 0.4em;
+    background-color: rgb(159, 176, 124);
+    text-align: center;
+    border-radius: 1.5em;
+}
+.in:hover {
+    background-color: white;
+    color: aquamarine;
+}
+
+#start-here {
+    position: fixed;
+    top: 5em;
+    right: 5em;
+}
+
+.header {
+    color: white;
+    margin-bottom: 5em;
+}
+
+* {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 80px;
+}
+
+.navigation ul li a:hover {
+    background-color: white;
+    border-radius: 0.5px;
+    color: rgb(131, 130, 46);
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.4em;
+}
+
+.logo:hover {
+    color: rgb(185, 183, 38);
+}
+
+.promotions {
+    width: 20%;
+    height: 30%;
+    background-color: rgb(179, 82, 82);
+    padding: 1em;
+    margin: 1em;
+}
+
+.promotions:hover {
+    background-color: rgb(238, 184, 113);
+}
+section {
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: rgb(89, 89, 15);
+    border-style: none;
+    width: 50%;
+    font-weight: bolder;
+    border-radius: 1em;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: brown;
+}
+
+.form-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    gap: 0.2em;
+    background-color: rgb(187, 178, 165);
+    padding: 1em;
+    font-family: Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+input {
+    border-style: none;
+    border-color: rgb(156, 71, 71);
+}
+select {
+    border-style: none;
+    border-color: rgb(156, 71, 71);
+}
+
+.loc a {
+    padding: 1em;
+    background-color: rgb(40, 130, 100);
+    color: yellow;
+    font-family: monospace;
+}
+
+.stay-with-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation ul li p {
+    font-family: monospace;
+    width: 50%;
+}
+
+.stay-with-us > ul > li {
+    list-style: none;
+}
+
+.stay-with-us > ul > li::before {
+    content: "--";
+    color: rgb(193, 193, 107);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+
+}
+
+.stay-with-us > ul > li::after {
+    content: "--";
+    color: rgb(193, 193, 107);
+    display: inline-block;
+    width: 1em;
+    margin-left: 0.4em;
+}
+
+h3 {
+    color: rgb(140, 139, 98);
+}
+
+img {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    right: 5em;
+    bottom: 5em;
+}
+img:hover {
+    background-color: blanchedalmond;
+}
+
+.count {
+    position: fixed;
+    right: 5em;
+    top: 10em;
+    padding: 0.5em;
+    background-color: white;
+    color: rgb(183, 171, 109);
+}
+
+.count:hover {
+    background-color: rgb(183, 171, 109);
+    color: white;
+}
