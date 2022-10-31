@@ -54,6 +54,22 @@ header > a:nth-child(3) img {
     width: 100%;
 }
 
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 5px;
+}
+
+/*Grid de Main-index.html*/
+
+
+main div {
+    background-color: #FF7008;
+    margin: 5px;
+    display: none;
+}
+
+
 .settings > img {
     width: 10%;
 }
