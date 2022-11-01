@@ -211,7 +211,6 @@ button:hover{
 }
 
 .last a:nth-of-type(2n - 1) {
-    padding: 5%;
     background-color: grey;
     border-radius: 100%;
 }
