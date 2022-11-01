@@ -60,7 +60,7 @@ header > a:nth-child(3) img {
 }
 
 .between {
-  width: 3px;
+  width: 1%;
   height: 100%;
   background-color: #858585;
   margin-left: 4%;
@@ -99,11 +99,12 @@ input{
 }
 
 .input-box{
-  margin-top:10px ;
+  margin-top: 5% ;
 }
 
 .input-boxito input{
-  width: 93%;}
+  width: 93%;
+}
 
 #settings > .nav {
     height: 100%;
@@ -115,13 +116,17 @@ button{
   background-color: white;
   color: #FF852C;
   padding: 5px 30px;
-  margin-right: 20px;
+  margin-right: 5%;
   border: solid 2px;
 }
 
 button:hover{
   color: #fff;
   background-color: #FF852C;
+}
+
+form{
+  width:100%
 }
 
 #logo {
@@ -211,6 +216,7 @@ button:hover{
 }
 
 .last a:nth-of-type(2n - 1) {
+    height: 9%;
     background-color: grey;
     border-radius: 100%;
 }
