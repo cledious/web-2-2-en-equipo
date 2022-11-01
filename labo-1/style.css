@@ -29,7 +29,6 @@ header {
 nav {
     display: flex;
     flex-direction: column;
-    margin-top: 1em;
     width: 40%;
     height: 100%;
     gap: 10%;
@@ -41,10 +40,10 @@ nav a img {
 
 header > a:nth-child(3) {
     width: 30%;
-    height: max-content;
-    padding: 2.5em;
+    height: 5%;
+    padding: 10%;
     border-radius: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 10%;
 }
 
 header > a:nth-child(3):hover {
@@ -91,9 +90,9 @@ h1{
 }
 
 input{
-  margin-right: 20px;
+  margin-right: 60px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: solid 2px;
   color: #858585;
 }
@@ -103,7 +102,7 @@ input{
 }
 
 .input-boxito input{
-  width: 93%;
+  width: 89%;
 }
 
 #settings > .nav {
@@ -111,7 +110,7 @@ input{
 }
 
 button{
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: #FF852C;
   background-color: white;
   color: #FF852C;
@@ -148,7 +147,6 @@ form{
 
 #settings > .nav {
     width: 22%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 8%;
@@ -193,8 +191,8 @@ form{
 }
 
 .row {
-    width: 2em;
-    height: 2em;
+    width: 24px;
+    height: 24px;
     float: left;
     box-shadow: -8px 8px 0 black;
     transform: rotate(45deg);
