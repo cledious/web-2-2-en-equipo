@@ -3,8 +3,9 @@
     padding: 0;
     text-transform: capitalize;
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 400%;
     text-decoration: none;
+    font-size: 95%;
 }
 
 body {
@@ -28,11 +29,10 @@ header {
 nav {
     display: flex;
     flex-direction: column;
-    margin-top: 1em;
     width: 40%;
     height: 100%;
     gap: 10%;
-}
+  }
 
 nav a img {
     width: 100%;
@@ -40,10 +40,10 @@ nav a img {
 
 header > a:nth-child(3) {
     width: 30%;
-    height: max-content;
-    padding: 2.5em;
+    height: 5%;
+    padding: 10%;
     border-radius: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 10%;
 }
 
 header > a:nth-child(3):hover {
@@ -75,46 +75,73 @@ main div {
 }
 
 .between {
-    width: 0.1%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
+  width: 1%;
+  height: 100%;
+  background-color: #858585;
+  margin-left: 4%;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1rem;
-}
-.name > div > input {
-    width: 400%;
+main{
+  margin-left: 20%;
+  font-size: 200%;
 }
 
-form > .name ,form > .address {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    gap: 1em;
+h1{
+  font-size: 250%;
 }
 
-form > .name > div ,form > .address > div {
-    display: flex;
-    flex-direction: column;
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
 }
 
-form label {
-    font-size: 2rem;
+.profile img{
+  height: 120px;
 }
 
-form input {
-    width: 100%;
-    height: 5.5rem;
-    border-radius: 1rem;
+.input-container{
+  display: flex;
+  
+}
+
+input{
+  margin-right: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px;
+  color: #858585;
+}
+
+.input-box{
+  margin-top: 5% ;
+}
+
+.input-boxito input{
+  width: 89%;
 }
 
 #settings > .nav {
     height: 100%;
+}
+
+button{
+  border-radius: 10px;
+  border-color: #FF852C;
+  background-color: white;
+  color: #FF852C;
+  padding: 5px 30px;
+  margin-right: 5%;
+  border: solid 2px;
+}
+
+button:hover{
+  color: #fff;
+  background-color: #FF852C;
+}
+
+form{
+  width:100%
 }
 
 #logo {
@@ -136,30 +163,30 @@ form input {
 
 #settings > .nav {
     width: 22%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 8%;
+    margin-top: 2%;
 }
 
 #settings > .nav > .s--place {
     display: flex;
     height: 15%;
     align-items: center;
-    margin-left: 8%;
+    margin-left: 24%;
     color: black;
 }
 
 #settings > .nav > .s--place > p {
-    font-size: 400%;
     margin-left: 3%;
+    font-size: 300%;
 }
 
 #settings > .nav > .settings {
     display: flex;
     flex-direction: row;
     width: 100%;
-    font-size: 300%;
+    font-size: 200%;
     color: grey;
     gap: 10%;
     margin-left: 18%;
@@ -180,37 +207,22 @@ form input {
 }
 
 .row {
-    width: 3em;
-    height: 3em;
+    width: 24px;
+    height: 24px;
     float: left;
     box-shadow: -8px 8px 0 black;
     transform: rotate(45deg);
 }
 
-.perfil {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h1 {
-    font-size: 500%;
-}
-
-.perfil > img {
-    width: 15%;
-}
-
 .last {
-    background-color: #FFC297;
     display: flex;
     flex-direction: row;
     width: 9%;
     height: min-content;
-    justify-content: center;
     align-items: center;
     gap: 10%;
     padding: 0.5%;
+    margin-left: 10%;
 }
 
 .last a:nth-of-type(2) img{
@@ -218,7 +230,7 @@ h1 {
 }
 
 .last a:nth-of-type(2n - 1) {
-    padding: 13%;
+    height: 9%;
     background-color: grey;
     border-radius: 100%;
 }
