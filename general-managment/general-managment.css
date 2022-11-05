@@ -1,0 +1,116 @@
+/*
+    --primer bloque
+*/
+/*
+    elementos generales
+*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-transform: capitalize;
+}
+
+/*
+    elementos basicos
+*/
+
+body {
+    background-color: rgb(146, 183, 146);
+}
+
+h1 {
+    color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    border: solid 0.1em white;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: rgb(234, 255, 0);
+    font-weight: lighter;
+}
+
+p {
+    font-family: monospace;
+    opacity: 0.8;
+    color: beige;
+}
+
+/*
+    elementos con pseudoclases
+*/
+
+h1:hover {
+    border: solid 0.1em tomato;
+    color: white;
+}
+
+/*
+    elementos con pseudoelementos
+*/
+
+h2::first-letter {
+    font-family: Courier;
+    color: tomato;
+    font-weight: lighter;
+}
+
+/*
+    --segundo bloque
+*/
+
+/*clases generales*/
+
+.paddings {
+    padding: 0% 10% 0 10%  ;
+}
+
+/*
+    clases especificas
+*/
+
+/*header*/
+.header--general-managment {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header--general-managment > div {
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+}
+
+/*main*/
+
+.g-m--main--general-managment {
+    display: grid;
+}
+
+/*seccion uno*/
+
+.s1--general-managment {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:    'box-one--s1--general-managment box-two--s1--general-managment box-fou--s1--general-managment'
+                            'box-thr--s1--general-managment box-thr--s1--general-managment box-fou--s1--general-managment';
+}
+
+.box-one--s1--general-managment {
+    grid-area: box-one--s1--general-managment;
+}
+.box-two--s1--general-managment {
+    grid-area: box-two--s1--general-managment;
+}
+.box-thr--s1--general-managment {
+    grid-area: box-thr--s1--general-managment;
+}
+
+.box-fou--s1--general-managment {
+    grid-area: box-fou--s1--general-managment;
+}
+
