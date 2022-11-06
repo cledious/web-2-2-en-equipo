@@ -314,3 +314,165 @@ h1 {
     font-weight: lighter;
     font-weight: 300;
 }
+
+.p1-gneral-white--about{
+    color: white;
+    font-size: 16px;
+}
+
+.p3-general--about{
+    color: #303030;
+}
+
+.p3-general-white--about{
+    color: white;
+}
+
+.p3-general-white--about > span{
+    color: #E27D60;
+}
+
+.p6-general--about{
+    color: #303030;
+    font-size: 12px;
+}
+
+.h3-general-about{
+    color: #E27D60;
+    font-size: 36px;
+}
+
+.h3-general-black--about{
+    color: #303030;
+    font-size: 36px;
+}
+
+.h3-general-white--about{
+    font-size: 36px;
+    color: white;
+}
+
+.h6-general--about{
+    color: #E27D60;
+    font-size: 14px;
+}
+
+.first--about{
+    display: grid;
+    align-content: center;
+    justify-items: end;
+}
+
+.second-about{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.third--about{
+    display: grid;
+    align-content: space-evenly;
+}
+
+.seventh--about{
+    display: grid;
+    align-content: space-evenly;
+}
+
+
+.button-third--about{
+    background-color: #303030;
+    color: white;
+    padding: 10px 40px;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.button-nineth--about{
+    background-color: #303030;
+    color: white;
+    padding: 1px 10px;
+    border-radius: 2px;
+}
+
+.Display-first--about{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.display-second-about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Display-third--about{
+    display: flex;
+    gap: 10%;
+}
+
+.Display-fourth-0--about{
+    display: grid;
+    justify-items: center;
+}
+
+.Display-fourth--about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backgrounnd-fifth--about{
+    background-image: url(images/portfolio/Rectangle\ 64.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+
+.button-fifht--about{
+    background-color: #303030;
+    color: white;
+    padding: 10px 25px;
+    margin: auto;
+    border-radius: 2px;
+
+}
+
+.Display-fifht--about{
+    display: grid;
+    justify-content: center;
+}
+
+.button-fifth--about{
+    background-color: #303030;
+    color: white;
+    padding: 10px 40px;
+    margin: auto;
+    border-radius: 2px;
+
+}
+
+.Display-sixth--about{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Display-seventh--about{
+    display: flex;
+    gap: 10%;
+}
+
+.Display-eight--about{
+    display: flex;
+    gap: 10%;
+}
+
+.Display-nineth--about{
+    display: flex;
+    gap: 10%;
+    background-image: url(images/portfolio/Rectangle\ 64\ -1.png);
+    justify-content: space-between;
+}
