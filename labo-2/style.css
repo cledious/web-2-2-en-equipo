@@ -359,8 +359,9 @@ h1 {
 
 .first--about{
     display: grid;
+    text-align: end;
     align-content: center;
-    justify-items: end;
+    gap: 5%;
 }
 
 .second-about{
@@ -396,35 +397,49 @@ h1 {
 }
 
 .Display-first--about{
+    margin-top: 9%;
     display: flex;
     justify-content: space-between;
     gap: 10%;
+    padding: 3% 18% 3% 18%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #E6E6E6 68%, white 35% );
 }
 
 .display-second-about{
+    margin-top: 9%;
+    padding: 3% 18% 3% 18%;
+    gap: 9%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center
 }
 
 .Display-third--about{
+    margin-top: 9%;
     display: flex;
     gap: 10%;
+    padding: 3% 18% 3% 19%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #ffffff 35%, #e6e6e6 35%);
 }
 
 .Display-fourth-0--about{
+    margin-top: 9%;
     display: grid;
     justify-items: center;
 }
 
 .Display-fourth--about{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .backgrounnd-fifth--about{
+    margin-top: 9%;
     background-image: url(images/portfolio/Rectangle\ 64.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -455,24 +470,31 @@ h1 {
 }
 
 .Display-sixth--about{
+    margin-top: 9%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5%;
     
 }
 
 .Display-seventh--about{
+    margin-top: 9%;
     display: flex;
     gap: 10%;
 }
 
 .Display-eight--about{
+    margin-top: 9%;
     display: flex;
     gap: 10%;
 }
 
 .Display-nineth--about{
+    margin-top: 9%;
     display: flex;
     gap: 10%;
     background-image: url(images/portfolio/Rectangle\ 64\ -1.png);
+    background-size: cover;
+    background-repeat: repeat;
     justify-content: space-between;
 }
