@@ -127,6 +127,11 @@ main div img {
     grid-area: asid1;
 }
 
+/*
+services
+*/
+
+
 
 
 
@@ -244,6 +249,7 @@ h1 {
     height: auto;
     margin-top: 4rem;
     padding: 3% 18% 3% 18%;
+
 }
 
 .main--services > .information--main {
@@ -254,7 +260,7 @@ h1 {
     padding: 10% 0% 10% 0%;
 }
 
-.main--services > .information--main > h2 {
+.title {
     font-family: 'Libre Franklin';
     padding:3% 10% 3% 10% ;
     font-size: 250%;
@@ -272,7 +278,7 @@ h1 {
     opacity: 0.5;
 }
 
-.main--services > .information--main > p:nth-child(1) {
+.description {
     text-transform: uppercase;
     font-weight: lighter;
 }
@@ -304,13 +310,104 @@ h1 {
 
 /*-treatments*/
 .treatments--services {
+    margin-top: 5rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 3% 18% 3% 18%;
 }
 
 .treatments--services p {
+    font-family: Work sans;
     text-transform: uppercase;
     font-weight: lighter;
+    font-size: 200%;
+}
+
+.treatments--services h2 {
+    text-transform: capitalize;
+    font-weight: lighter;
     font-weight: 300;
+}
+
+.treatments {
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+    width: 100%;
+}
+
+.treatments > img {
+    width: 100%;
+    background-color: #E27D60;
+}
+
+/*
+    discount-offer
+*/
+
+.banner--services {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+    height: 40rem;
+    background: url("./images/Rectangle 96.png") no-repeat center ;
+    background-size: cover;
+}
+
+.info--banner {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+.info--banner > div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+}
+
+.info--banner > div > h2 {
+    color: #E27D60;
+    font-size: 400%;
+    margin-bottom: 4%;
+}
+
+#discount-description {
+        color: #E6E6E6;
+        font-size: 1.7em;
+}
+
+.info--banner > div > h2 > span {
+    color: #E6E6E6;
+}
+
+.info--banner > p {
+    color: #E6E6E6;
+    width: 40%;
+    height: 100%;
+    font-size: 900%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/*
+    trusted service
+*/
+
+.trusted--services {
+    padding: 3% 18%;
+    display: grid;
+    
 }
