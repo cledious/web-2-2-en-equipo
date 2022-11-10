@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: #F5F5F5;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
 /*16/3  8 4 4*/
 
 header {
-    height: 5rem;
+    height: 10rem;
     align-items: center;
 }
 
@@ -86,8 +87,6 @@ main div img {
     grid-area: aside;
 }
 
-
-
 .header1 {
     grid-area: header1;
 }
@@ -126,6 +125,9 @@ main div img {
 .asid1 {
     grid-area: asid1;
 }
+
+
+
 
 
 
@@ -202,7 +204,7 @@ h1 {
     background-color: #E6E6E6;
     display: flex;
     flex-direction: column;
-    height: 6rem;
+    height: 13rem;
     align-items: center;
     justify-content: center;
 }
@@ -244,6 +246,7 @@ h1 {
     height: auto;
     margin-top: 4rem;
     padding: 3% 18% 3% 18%;
+
 }
 
 .main--services > .information--main {
@@ -254,14 +257,14 @@ h1 {
     padding: 10% 0% 10% 0%;
 }
 
-.main--services > .information--main > h2 {
+.title {
     font-family: 'Libre Franklin';
     padding:3% 10% 3% 10% ;
     font-size: 250%;
     color: #E27D60;
 }
 
-.main--services > .information--main > p {
+.definition {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
@@ -272,7 +275,7 @@ h1 {
     opacity: 0.5;
 }
 
-.main--services > .information--main > p:nth-child(1) {
+.description {
     text-transform: uppercase;
     font-weight: lighter;
 }
@@ -304,13 +307,232 @@ h1 {
 
 /*-treatments*/
 .treatments--services {
+    margin-top: 5rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 3% 18% 3% 18%;
 }
 
 .treatments--services p {
+    font-family: Work sans;
     text-transform: uppercase;
     font-weight: lighter;
+    font-size: 200%;
+}
+
+.treatments--services h2 {
+    text-transform: capitalize;
+    font-weight: lighter;
     font-weight: 300;
+}
+
+.treatments {
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+    width: 100%;
+}
+
+.treatments > img {
+    width: 100%;
+    background-color: #E27D60;
+}
+
+/*
+    discount-offer
+*/
+
+.banner--services {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+    height: 40rem;
+    background: url("./images/Rectangle 96.png") no-repeat center ;
+    background-size: cover;
+}
+
+.info--banner {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+.info--banner > div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+}
+
+.info--banner > div > h2 {
+    color: #E27D60;
+    font-size: 400%;
+    margin-bottom: 4%;
+}
+
+#discount-description {
+        color: #E6E6E6;
+        font-size: 1.7em;
+}
+
+.info--banner > div > h2 > span {
+    color: #E6E6E6;
+}
+
+.info--banner > p {
+    color: #E6E6E6;
+    width: 40%;
+    height: 100%;
+    font-size: 900%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/*
+    trusted service
+    img1.1-trusted--services
+    img1.2-trusted--services
+    left-text-trusted--services
+    right-text-trusted--services
+    img2-trusted--services
+*/
+
+.trusted--services {
+    padding: 5.5% 18%;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas:    'img1_1-trusted--services img1_2-trusted--services right-text-trusted--services right-text-trusted--services'
+                            'left-text-trusted--services left-text-trusted--services img2-trusted--services img2-trusted--services'
+                            'button-trusted--services button-trusted--services button-trusted--services button-trusted--services';
+    gap: 0;
+    height: max-content;
+}
+
+.img1_1-trusted--services {
+    grid-area: img1_1-trusted--services;
+    background: url("./images/Rectangle 53.png") no-repeat center;
+    background-size: cover;
+    height: 35em;
+}
+
+.img1_2-trusted--services {
+    grid-area: img1_2-trusted--services;
+    background: url("./images/Rectangle 54.png") no-repeat center;
+    background-size: cover;
+    height: 35em;
+
+}
+
+.left-text-trusted--services {
+    grid-area: left-text-trusted--services;
+    width: fit-content;
+    line-height: 1.8em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 1.2em;
+    padding: 4% 0%;
+}
+
+.right-text-trusted--services {
+    grid-area: right-text-trusted--services;
+    margin-left: 16%;
+    padding: 10% 0% 10% 0%;
+    gap: 3%;
+    display: flex;
+    flex-direction: column;
+    height: 24.5em;
+    font-size: 115%;
+}
+
+.right-text-trusted--services > p {
+    line-height: 25px;
+}
+
+.img2-trusted--services {
+    grid-area: img2-trusted--services;
+    background: url("./images/Rectangle 61.png") no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+    height: 29.5em;
+}
+
+.title {
+    padding: 10px 0px 10px 0px;
+}
+
+.definition {
+    text-align: left;
+}
+
+.description {
+    text-align: left;
+}
+
+.button-trusted--services {
+    grid-area: button-trusted--services;
+    background-color: #303030;
+    color: #E6E6E6;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    align-self: center;
+    font-size: 200%;
+    padding: 0.5em 1em; 
+    margin: 4%;
+}
+
+/*
+    everyone deserves good health.
+*/
+
+.everyone--services {
+    background-color: #E6E6E6;
+    padding: 4% 18%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:    'text-everyone--services        text-everyone--services        text-everyone--services        img-everyone--services         img-everyone--services         img-everyone--services'
+                            'comment_one-everyone--services comment_one-everyone--services comment_two-everyone--services comment_two-everyone--services comment_thr-everyone--services comment_thr-everyone--services'
+                            'pages-everyone--services       pages-everyone--services       pages-everyone--services       pages-everyone--services       pages-everyone--services       pages-everyone--services';
+    row-gap: 10%;
+    padding-bottom: 12em;
+    height: max-content;
+}
+.text-everyone--services {
+    grid-area: text-everyone--services;
+}
+.img-everyone--services {
+    grid-area: img-everyone--services;
+    width: 10em;
+}
+.comment_one-everyone--services {
+    grid-area: comment_one-everyone--services;
+}
+.comment_two-everyone--services {
+    grid-area: comment_two-everyone--services;
+}
+.comment_thr-everyone--services {
+    grid-area: comment_thr-everyone--services;
+}
+.pages-everyone--services {
+    grid-area: pages-everyone--services;
+    display: flex;
+    justify-content: center;
+}
+
+.pages-everyone--services > img {
+    width: 18%;
 }
