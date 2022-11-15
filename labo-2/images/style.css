@@ -522,99 +522,55 @@ h1 {
 .nineth--about{
     -webkit-user-modify: read-write-plaintext-only;
     padding-top: 47px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 11px;
-    margin: 69px;
-    margin-left: 443px;
-    padding-right: 450px;
 }
 
-.seventh--about {
+.everyone--about {
+    background-color: #E6E6E6;
+    padding: 4% 18%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:    'text-everyone--services        text-everyone--services        text-everyone--services        img-everyone--services         img-everyone--services         img-everyone--services'
+                            'comment_one-everyone--services comment_one-everyone--services comment_two-everyone--services comment_two-everyone--services comment_thr-everyone--services comment_thr-everyone--services'
+                            'pages-everyone--services       pages-everyone--services       pages-everyone--services       pages-everyone--services       pages-everyone--services       pages-everyone--services';
+    row-gap: 10%;
+    padding-bottom: 12em;
+    height: max-content;
+    margin: 9%;
+    
+}
+
+.text-everyone--about {
+    grid-area: text-everyone--services;
+}
+
+.description {
+    text-align: left;
+}
+
+.title {
+    padding: 10px 0px 10px 0px;
+}
+
+.definition {
+    text-align: left;
+}
+
+.comment_one-everyone--about {
+    grid-area: comment_one-everyone--services;
+}
+.comment_two-everyone--about {
+    grid-area: comment_two-everyone--services;
+}
+.comment_thr-everyone--about {
+    grid-area: comment_thr-everyone--services;
+}
+.pages-everyone--about {
+    grid-area: pages-everyone--services;
     display: flex;
-    align-items: center;
-    gap: 2%;
     justify-content: center;
-    margin: 3%;
 }
 
-.Seventh-1-about{
-    display: flex;
-    text-align: end;
-    gap: 3%;
-    padding-right: 290px;
-    align-items: center;
-    margin: 4%;
-}
-
-.pages-everyone--about{
-    padding: 50px;
-    margin-left: 43%;
-
-}
-
-.Seventh-2-about{
-    display: flex;
-    flex-direction: column;
-    gap: 34px;
-    width: 100%;
-}
-
-.Seventh{
-    margin: 3%;
-    background-color: gainsboro;
-}
-
-.Fith--about{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.background-image_before-footer--article {
-    background: url('./images/portfolio/Rectangle 64 -1.png') no-repeat;
-    height: 275px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-size: cover;
-}
-
-.paddings-before_footer--article {
-    padding: 0% 18% 0% 18%;
-}
-
-.join-our-newssellers {
-    display: flex;
-    flex-direction: column;
-    color: #E6E6E6;
-    gap: 10px;
-    width: 30%;
-}
-
-.join-our-newssellers > p {
-    font-weight: lighter;
-}
-
-#get45 {
-    color: #E27D60;
-}
-
-#e-mail--article {
-    width: 53em;
-    padding: 2% 0% 2% 5%;
-}
-
-#suscribe--article {
-    background-color: #303030;
-    color: #E6E6E6;
-    margin-left: 10%;
-    padding: 2% 10% 2% 10%;
-}
-
-.form--article {
-    display: flex;
-    flex-direction: row;
+.pages-everyone--about > img {
+    width: 18%;
 }
