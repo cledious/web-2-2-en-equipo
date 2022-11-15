@@ -316,7 +316,7 @@ h1 {
 }
 
 .treatments--services p {
-    font-family: Work sans;
+    font-family: 'Work sans';
     text-transform: uppercase;
     font-weight: lighter;
     font-size: 200%;
@@ -535,4 +535,173 @@ h1 {
 
 .pages-everyone--services > img {
     width: 18%;
+}
+
+/*
+    article
+*/
+
+.paddings--article {
+    padding: 3% 18%;
+}
+
+.faces--article {
+    display: flex;
+    justify-content: center;
+}
+
+.text-angelina--article {
+    background-color: #E8A87C;
+    padding: 3% 10%;
+    width: 42%;
+}
+
+.angelina--article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.angelina-profile--article {
+    display: flex;
+    flex-direction: row;
+}
+
+.angelina--article > div:nth-of-type(2) {
+    display: flex;
+    width: 62%;
+}
+
+/*
+other-post--article
+other-posts--article
+fimage-other--article
+simage-other--article
+timage-other--article
+*/
+
+.other-post--article {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 'other-posts--article other-posts--article other-posts--article' 
+'fimage-other--article simage-other--article timage-other--article  ';
+    column-gap: 3%;
+}
+
+.other-posts--article {
+    grid-area: other-posts--article;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other-posts--article > p  {
+    font-weight: lighter;
+    font-size: 1.5em;
+    opacity: 0.5;
+    margin-bottom: 0.6em;
+    margin-top: 5em;
+}
+
+.other-posts--article > h2 {
+    color: #E27D60;
+    font-size: 3em;
+    font-family: 'Libre Franklin';
+    margin-bottom: 01em;
+}
+
+.fimage-other--article {
+    grid-area: fimage-other--article;
+}
+
+.simage-other--article {
+    grid-area: simage-other--article;
+}
+
+.timage-other--article {
+    grid-area: timage-other--article;
+}
+
+
+.articles-article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.articles-article > .date-o-p--article {
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+.articles-article > .tittle-o-p--article{
+    color: #E27D60;
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+.articles-article > a {
+    font-weight: bolder;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.background-image_before-footer--article {
+    background: url("./images/Rectangle 64.png") no-repeat;
+    background-size: cover;
+    height: 275px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paddings-before_footer--article {
+    padding: 0% 18% 0% 18%;
+}
+
+.join-our-newssellers {
+    display: flex;
+    flex-direction: column;
+    color: #E6E6E6;
+    gap: 10px;
+    width: 30%;
+}
+
+.join-our-newssellers > p {
+    font-weight: lighter;
+}
+
+#get45 {
+    color: #E27D60;
+}
+
+#e-mail--article {
+    width: 53em;
+    padding: 2% 0% 2% 5%;
+}
+
+#suscribe--article {
+    background-color: #303030;
+    color: #E6E6E6;
+    margin-left: 10%;
+    padding: 2% 10% 2% 10%;
+}
+
+.form--article {
+    display: flex;
+    flex-direction: row;
+}
+
+.between_faces-a-description--article {
+    margin: 3% 0% 3% 0%;
+    width: 100%;
+    height: auto;
+}
+
+.paddingzero {
+    padding-left: 0;
+    padding-right: 0;
 }
