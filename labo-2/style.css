@@ -34,7 +34,7 @@ header > div {
     gap: 20%;
 }
 
-main {
+.main--grid-cont {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -193,12 +193,12 @@ h1 {
     color: #E27D60;    ;
 }
 
-.logo {
+.header__a--logo {
     font-size: 2rem;
     font-family: inter;
 }
 
-.address {
+.body__div--address {
     margin-left: 18%;
     padding-right: 18%;
     background-color: #E6E6E6;
@@ -209,7 +209,7 @@ h1 {
     justify-content: center;
 }
 
-.sections-of-main {
+.body__div--nav-of-main {
     display: flex;
     justify-content: center;
     gap: 0.5%;
