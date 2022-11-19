@@ -1,0 +1,32 @@
+.sprite {
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  display: block; }
+
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  text-indent: -9999px; }
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%; }
+
+.flag-usa {
+  width: 255px;
+  height: 135px;
+  background-position: -5px -143px; }
+
+.flag-canada {
+  width: 255px;
+  height: 128px;
+  background-position: -5px -5px; }
+
+.flag-mexico {
+  width: 255px;
+  height: 128px;
+  background-position: -5px -288px; }
