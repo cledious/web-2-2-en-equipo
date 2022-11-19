@@ -773,6 +773,8 @@ timage-other--article
     display: grid;
     align-content: space-evenly;
   }
+
+  .seventh--
   
   
   .button-third--about{
@@ -804,6 +806,15 @@ timage-other--article
     color: white;
     padding: 1px 10px;
     border-radius: 2px;
+  }
+
+  .button-Doctor--about{
+    background-color: #303030;
+    color: white;
+    padding: 10px 25px;
+    margin: auto;
+    border-radius: 2px;
+    margin-top: 10%;
   }
   
   .Display-first--about{
@@ -890,12 +901,14 @@ timage-other--article
     margin-top: 9%;
     display: flex;
     gap: 10%;
+    justify-content: center;
   }
   
   .Display-eight--about{
     margin-top: 9%;
     display: flex;
-    gap: 10%;
+    gap: 2%;
+    justify-content: center;
   }
   
   .Display-nineth--about{
@@ -913,7 +926,19 @@ timage-other--article
     -webkit-user-modify: read-write-plaintext-only;
     padding-top: 47px;
   }
-  
-  .nineth-width--about{
-  
+
+  .pages-everyone--about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7%;
   }
+
+.Seventh-2-about{
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    text-align: end;
+    justify-content: center;
+}
