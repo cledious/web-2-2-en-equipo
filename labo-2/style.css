@@ -705,3 +705,215 @@ timage-other--article
     padding-left: 0;
     padding-right: 0;
 }
+
+.p1-gneral-white--about{
+    color: white;
+    font-size: 16px;
+  }
+  
+  .p3-general--about{
+    color: #303030;
+  }
+  
+  .p3-general-white--about{
+    color: white;
+  }
+  
+  .p3-general-white--about > span{
+    color: #E27D60;
+  }
+  
+  .p6-general--about{
+    color: #303030;
+    font-size: 12px;
+  }
+  
+  .h3-general-about{
+    color: #E27D60;
+    font-size: 36px;
+  }
+  
+  .h3-general-black--about{
+    color: #303030;
+    font-size: 36px;
+  }
+  
+  .h3-general-white--about{
+    font-size: 36px;
+    color: white;
+  }
+  
+  .h6-general--about{
+    color: #E27D60;
+    font-size: 14px;
+  }
+  
+  .first--about{
+    display: grid;
+    text-align: end;
+    align-content: center;
+    gap: 5%;
+  }
+  
+  .second-about{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    text-align: -webkit-center;
+    gap: 14%;
+    width: 205px
+  }
+  
+  .third--about{
+    display: grid;
+    align-content: space-evenly;
+  }
+  
+  .seventh--about{
+    display: grid;
+    align-content: space-evenly;
+  }
+  
+  
+  .button-third--about{
+    background-color: #303030;
+    color: white;
+    padding: 10px 40px;
+    margin: auto;
+    border-radius: 2px;
+  }
+  
+  .button-fifht--about{
+    background-color: #303030;
+    color: white;
+    padding: 10px 25px;
+    margin: auto;
+    border-radius: 2px;
+    margin-top: 30px;
+  }
+  
+  
+  .Button-form-fifth{
+    width: 570px;
+    height: 42px;
+    left: 875px;
+  
+  }
+  .button-nineth--about{
+    background-color: #303030;
+    color: white;
+    padding: 1px 10px;
+    border-radius: 2px;
+  }
+  
+  .Display-first--about{
+    margin-top: 9%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding: 3% 18% 3% 18%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #E6E6E6 68%, white 35% );
+  }
+  
+  .display-second-about{
+    margin-top: 9%;
+    padding: 3% 18% 3% 18%;
+    gap: 9%;
+    display: flex;
+    justify-content: center
+  }
+  
+  .Display-third--about{
+    margin-top: 9%;
+    display: flex;
+    gap: 10%;
+    padding: 3% 18% 3% 19%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #ffffff 35%, #e6e6e6 35%);
+  }
+  
+  .Display-fourth-0--about{
+    margin-top: 9%;
+    display: grid;
+    justify-items: center;
+    gap: 60%;
+  }
+  
+  .Display-fourth--about{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .backgrounnd-fifth--about{
+    margin-top: 9%;
+    background-image: url(images/portfolio/Rectangle\ 64.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .fifth-FormGap--about{
+    -webkit-user-modify: read-write-plaintext-only;
+  }
+  
+  
+  .Display-fifht--about{
+    margin-top: 9%;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .button-fifth--about{
+    background-color: #303030;
+    color: white;
+    padding: 10px 40px;
+    margin: auto;
+    border-radius: 2px;
+  
+  }
+  
+  .Display-sixth--about{
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    
+  }
+  
+  .Display-seventh--about{
+    margin-top: 9%;
+    display: flex;
+    gap: 10%;
+  }
+  
+  .Display-eight--about{
+    margin-top: 9%;
+    display: flex;
+    gap: 10%;
+  }
+  
+  .Display-nineth--about{
+    margin-top: 9%;
+    display: flex;
+    gap: 10%;
+    background-image: url(images/portfolio/Rectangle\ 64\ -1.png);
+    background-size: cover;
+    background-repeat: repeat;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nineth--about{
+    -webkit-user-modify: read-write-plaintext-only;
+    padding-top: 47px;
+  }
+  
+  .nineth-width--about{
+  
+  }
